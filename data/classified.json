@@ -1,0 +1,783 @@
+[
+ {
+  "body_hash": "-5595834146960426207",
+  "url": "https://content.webuntis.com/WebUntis/static/2027.3.1/js/untis/webpack.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "body_hash": "-7234930694791076125",
+  "url": "https://content.webuntis.com/WebUntis/static/2027.3.1/js/untis/webpack.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "body_hash": "-8224821416477851006",
+  "url": "https://assets-embark.ehr.com/js/vendor-bundle.js",
+  "class": "changed-no-match"
+ },
+ {
+  "body_hash": "-8890399166273640343",
+  "url": "https://content.webuntis.com/WebUntis/static/2027.3.1/js/untis/webpack.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "body_hash": "8649867804959729479",
+  "url": "https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "7893821288056487952",
+  "url": "https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.min.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "484041354561383737",
+  "url": "https://notificacoesinteligentes.com/_nuxt/E0dTiTV5.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-5316083593470322985",
+  "url": "https://najboljamamanasvetu.com/main.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "5250298901156310507",
+  "url": "https://absorbest.com/wp-content/themes/absorbest/dist/js/app.min.js?version=1.21b&ver=6.8.11",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-95536747779177380",
+  "url": "https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-8430561659166909587",
+  "url": "https://exp-space.ru/assets/index-c1FY-xwR.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "body_hash": "-1021257050308355678",
+  "url": "https://prod.cdn-redfin.com/bundles/customer-pages-map-dp/7d8486b8607cb7fa0999.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "3937273980994852065",
+  "url": "https://redpointtravelprotection.com/wp-content/themes/redpoint/js/bundle.js?ver=7.68",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "4837188655445942523",
+  "url": "https://mad.lightsource.co.th/js/vendor.beb71dd3.js",
+  "class": "fetch-failed",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+ },
+ {
+  "body_hash": "2356093998775378042",
+  "url": "https://www.allever.com.br/_frsh/js/679de62187e5fee14a38245d1702c356d2e027f3/chunk-V67AATYE.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "body_hash": "-5042205964747220376",
+  "url": "https://telli.dpd.ee/_next/static/chunks/7993e89f.78d0e242ca81aad3.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-8716724892061085786",
+  "url": "https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-8012127059129716714",
+  "url": "https://dolbear.com.bd/frontend/js/chunks/vendor-webpack-69566346.b53d486e.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-4377563890821902319",
+  "url": "https://webclient.promtransinvest.by:4001/bundles/pscore?v=xkxftsQE4Y_iVkPhV0TTDcXaTS2uBYq9_NYSAn2orAw1",
+  "class": "code",
+  "terser_markers": false,
+  "code_contexts": [
+   "onnectDB(function (db) {\n        if (!db.objectStoreNames.contains(storeName)) {\n            PSIndexedDB.createObjectStore(baseName, storeName);\n        } else {\n            var rows = [],\n                store = db.transaction([storeName], \"readonly\").objectStore(storeName);\n\n            if (store.mozGetAll)\n                store.mozGetAll().onsuccess = function (e) {\n                    f(e.target.result);\n                };\n            else\n                store.openCursor().onsuccess = function (e) {\n                    var cursor = e.target.result;\n                    if (cursor) {\n      ",
+   "if (!db.objectStoreNames.contains(storeName)) {\n            PSIndexedDB.createObjectStore(baseName, storeName);\n        } else {\n            var rows = [],\n                store = db.transaction([storeName], \"readonly\").objectStore(storeName);\n\n            if (store.mozGetAll)\n                store.mozGetAll().onsuccess = function (e) {\n                    f(e.target.result);\n                };\n            else\n                store.openCursor().onsuccess = function (e) {\n                    var cursor = e.target.result;\n                    if (cursor) {\n                        rows.push(curso"
+  ]
+ },
+ {
+  "body_hash": "-3718006001086859102",
+  "url": "https://school.elice.page/home/_next/static/chunks/f3818da58161cfd1.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "9195915796969241774",
+  "url": "https://dashboard.anura.io/main.c832a250d1d4b146.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-2858068934993507385",
+  "url": "https://ol.woobx.cn/_nuxt/H4T7Vgn3.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "5892763301147097953",
+  "url": "https://auctibid.com/js/app.js?v=c7934876b21d2f4e33a289f29b9372cb",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-4050782110558684685",
+  "url": "https://www.seugin.com/_frsh/js/fbc4b0fbdfe6a591827fc100b64550c52733cdaa/chunk-SM7GTO7Y.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "931054583395470562",
+  "url": "https://consentmodebanner.com/public/assets/js/libs/terser.bundle.min.js",
+  "class": "code",
+  "terser_markers": true,
+  "code_contexts": [
+   "se\",\n        \"mozCursor\",\n        \"mozDash\",\n        \"mozDashOffset\",\n        \"mozDecodedFrames\",\n        \"mozExitPointerLock\",\n        \"mozFillRule\",\n        \"mozFragmentEnd\",\n        \"mozFrameDelay\",\n        \"mozFullScreen\",\n        \"mozFullScreenElement\",\n        \"mozFullScreenEnabled\",\n        \"mozGetAll\",\n        \"mozGetAllKeys\",\n        \"mozGetAsFile\",\n        \"mozGetDataAt\",\n        \"mozGetMetadata\",\n        \"mozGetUserMedia\",\n        \"mozHasAudio\",\n        \"mozHasItem\",\n        \"mozHidden\",\n        \"mozImageSmoothingEnabled\",\n        \"mozIndexedDB\",\n        \"mozInnerScreenX\",\n        \"",
+   "or\",\n        \"mozDash\",\n        \"mozDashOffset\",\n        \"mozDecodedFrames\",\n        \"mozExitPointerLock\",\n        \"mozFillRule\",\n        \"mozFragmentEnd\",\n        \"mozFrameDelay\",\n        \"mozFullScreen\",\n        \"mozFullScreenElement\",\n        \"mozFullScreenEnabled\",\n        \"mozGetAll\",\n        \"mozGetAllKeys\",\n        \"mozGetAsFile\",\n        \"mozGetDataAt\",\n        \"mozGetMetadata\",\n        \"mozGetUserMedia\",\n        \"mozHasAudio\",\n        \"mozHasItem\",\n        \"mozHidden\",\n        \"mozImageSmoothingEnabled\",\n        \"mozIndexedDB\",\n        \"mozInnerScreenX\",\n        \"mozInnerScreenY\",\n   "
+  ]
+ },
+ {
+  "body_hash": "7485195053110097004",
+  "url": "https://cdn.egain.cloud/21.24.0/templates/selfservice/core/super-common/libs/21.21.0/application-vendor.min.js?cache=21.24.0-202609231857__20260929175236",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-1107958518520149635",
+  "url": "https://cdn.jsdelivr.net/npm/terser/dist/bundle.min.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "6153591757243610597",
+  "url": "https://mytoolstudio.com/_next/static/chunks/d20bd9e0-e0562e8b208975d1.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "7947373923844601296",
+  "url": "https://www.tradingvue.com/30b1dbd1174df6ad.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "3421479434521206809",
+  "url": "https://multi-toolkit.com/_next/static/chunks/d20bd9e0.575115d1623597a9.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-6754052315124173291",
+  "url": "https://cdn.jsdelivr.net/npm/terser@5.7.1",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "9183519816569642097",
+  "url": "https://daproc.com/_nuxt/CzGAgJDk.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "body_hash": "5741613003892037977",
+  "url": "https://truedevtools.com/assets/JavaScriptMinifier.component-BCUyxVXr.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "1422520952547785290",
+  "url": "https://iskconapp.com/_nuxt/38714b7.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-6955615528997194969",
+  "url": "https://med.famed.online/js/indexed_db/helper.js",
+  "class": "code",
+  "terser_markers": false,
+  "code_contexts": [
+   "ion(event) {\n            callback(event.target.result)\n        };\n    });\n}\n\nfunction getStorage(callback){\n    connectDB(function(db){\n        let rows = [];\n        let transaction = db.transaction([storeName], \"readonly\");\n        let store = transaction.objectStore(storeName);\n\n        if(store.mozGetAll)\n            store.mozGetAll().onsuccess = function(e){\n                callback(e.target.result);\n            };\n        else\n            store.openCursor().onsuccess = function(e) {\n                let cursor = e.target.result;\n                if(cursor){\n                    rows.push(cu",
+   "back(event.target.result)\n        };\n    });\n}\n\nfunction getStorage(callback){\n    connectDB(function(db){\n        let rows = [];\n        let transaction = db.transaction([storeName], \"readonly\");\n        let store = transaction.objectStore(storeName);\n\n        if(store.mozGetAll)\n            store.mozGetAll().onsuccess = function(e){\n                callback(e.target.result);\n            };\n        else\n            store.openCursor().onsuccess = function(e) {\n                let cursor = e.target.result;\n                if(cursor){\n                    rows.push(cursor.value);\n                "
+  ]
+ },
+ {
+  "body_hash": "4172472066417713277",
+  "url": "https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-7254878717951331394",
+  "url": "https://chat.lenzaos.com/static/js/main.6a3ad0b6.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "body_hash": "-7014640867866571444",
+  "url": "https://w3dge.io/lib-77197b3e.c8c4c48e139787ea12a8.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-7221700255831272115",
+  "url": "https://app.adspower.net/static/js/_vendor.DiLzGy7h.js",
+  "class": "changed-no-match"
+ },
+ {
+  "body_hash": "-205548806202410925",
+  "url": "https://help.auxiliafinance.it/VAADIN/build/chunk-d9d42c3ba10aeabf7f6a27e0556126caa7e7c9624c2e358bb4a06068d371c128-BVzd07vh.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "7194633388469956641",
+  "url": "https://www.uber.com/_static/client-49438-e24f428c008b167d.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "5655233635624673893",
+  "url": "https://tools.namlabs.com/_nuxt/e1aa175.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "7125091791538686313",
+  "url": "https://app-global.adspower.net/static/js/_vendor.jSBlT1-E.js",
+  "class": "changed-no-match"
+ },
+ {
+  "body_hash": "6577513720214969104",
+  "url": "https://browsertotal.com/assets/Bba7UuxH.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "5430783460985344474",
+  "url": "https://deliver.postmates.com/_static/client-9438-69ee1859c7af99a9.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-4848515952794677521",
+  "url": "https://prod-widget.innography.com/dist/catalog/shared/bundle.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-2949676187535771262",
+  "url": "https://nepaldairy.com.np/_next/static/chunks/5b00199a-7d01cc90ee2ac802.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "151429375941414958",
+  "url": "https://daproc.com/_nuxt/Cs5Qj212.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-7243088293162746125",
+  "url": "https://prod.cdn-redfin.com/bundles/customer-pages-personalization/de57c81a320d313ced28.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-6115460615783143367",
+  "url": "https://storex.ril.com/storex/static/js/2.aa95432f.chunk.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "5987091819951075043",
+  "url": "https://nouswise.com/assets/index-DWj_5paZ.js",
+  "class": "changed-no-match"
+ },
+ {
+  "body_hash": "7956814355578986897",
+  "url": "https://www.playadopt.me/_next/static/immutable/chunks/3ouojrf-uxxj5.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-3157197746130513866",
+  "url": "https://prod.cdn-redfin.com/bundles/customer-pages-personalization/de57c81a320d313ced28.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "380211059539282879",
+  "url": "https://m.skylife.co.kr/_next/static/chunks/d20bd9e0-0f031332be95bdd4.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "2920580034233023669",
+  "url": "http://football.zengm.com/gen/app.js",
+  "class": "code",
+  "terser_markers": false,
+  "code_contexts": [
+   "indow.webkitIDBIndex || window.mozIDBIndex || window.msIDBIndex;\n\n    if (typeof IDBObjectStore === \"undefined\" || typeof IDBIndex === \"undefined\" || (IDBObjectStore.prototype.getAll !== undefined && IDBIndex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pa",
+   "window.msIDBIndex;\n\n    if (typeof IDBObjectStore === \"undefined\" || typeof IDBIndex === \"undefined\" || (IDBObjectStore.prototype.getAll !== undefined && IDBIndex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/IDBRequest.js\n    IDBRequest = functio",
+   "fined\" || (IDBObjectStore.prototype.getAll !== undefined && IDBIndex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/IDBRequest.js\n    IDBRequest = function () {\n        this.onsuccess = null;\n        this.readyState = \"pending\";\n    };\n    // https",
+   "ex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/IDBRequest.js\n    IDBRequest = function () {\n        this.onsuccess = null;\n        this.readyState = \"pending\";\n    };\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/Event.js\n "
+  ]
+ },
+ {
+  "body_hash": "-3312752257339909023",
+  "url": "https://jsobfuscator.com/_astro/index.browser-CgsyY8BN.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "4985015219038421185",
+  "url": "https://publisher.adoperator.com/js/chunk-vendors.4f8b2ec8.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "8497290991835856771",
+  "url": "https://browsertotal.com/assets/tnCIW1T4.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "2028315212228501940",
+  "url": "http://collegefootball.zengm.com/gen/app.js",
+  "class": "code",
+  "terser_markers": false,
+  "code_contexts": [
+   "indow.webkitIDBIndex || window.mozIDBIndex || window.msIDBIndex;\n\n    if (typeof IDBObjectStore === \"undefined\" || typeof IDBIndex === \"undefined\" || (IDBObjectStore.prototype.getAll !== undefined && IDBIndex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pa",
+   "window.msIDBIndex;\n\n    if (typeof IDBObjectStore === \"undefined\" || typeof IDBIndex === \"undefined\" || (IDBObjectStore.prototype.getAll !== undefined && IDBIndex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/IDBRequest.js\n    IDBRequest = functio",
+   "fined\" || (IDBObjectStore.prototype.getAll !== undefined && IDBIndex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/IDBRequest.js\n    IDBRequest = function () {\n        this.onsuccess = null;\n        this.readyState = \"pending\";\n    };\n    // https",
+   "ex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/IDBRequest.js\n    IDBRequest = function () {\n        this.onsuccess = null;\n        this.readyState = \"pending\";\n    };\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/Event.js\n "
+  ]
+ },
+ {
+  "body_hash": "-8400884503631495246",
+  "url": "https://prod.cdn-redfin.com/bundles/customer-pages-page-manager/92029050174abb742451.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "4261937790410240893",
+  "url": "https://www.sodatool.com/_nuxt/CbVIZGH_.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "1225385742635346391",
+  "url": "https://af.fineco.it/Scripts/drakeux.angular.js?v=3.6.5",
+  "class": "code",
+  "terser_markers": false,
+  "code_contexts": [
+   "tion.result ? transaction.result : -1);\n            }\n        });\n    }\n\n    this.getAll = function (storeName, f) {\n        connectDB(storeName, function (db) {\n            var rows = [],\n                store = db.transaction([storeName], \"readonly\").objectStore(storeName);\n\n            if (store.mozGetAll)\n                store.mozGetAll().onsuccess = function (e) {\n                    f(e.target.result);\n                };\n            else\n                store.openCursor().onsuccess = function (e) {\n                    var cursor = e.target.result;\n                    if (cursor) {\n      ",
+   ": -1);\n            }\n        });\n    }\n\n    this.getAll = function (storeName, f) {\n        connectDB(storeName, function (db) {\n            var rows = [],\n                store = db.transaction([storeName], \"readonly\").objectStore(storeName);\n\n            if (store.mozGetAll)\n                store.mozGetAll().onsuccess = function (e) {\n                    f(e.target.result);\n                };\n            else\n                store.openCursor().onsuccess = function (e) {\n                    var cursor = e.target.result;\n                    if (cursor) {\n                        rows.push(curso"
+  ]
+ },
+ {
+  "body_hash": "1164654844057584736",
+  "url": "https://static.trvcdn.net/prd/assets/aurum/_aurum/assets/DBf4cxs2.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "3667980553599879647",
+  "url": "https://studio.swebsy.com/assets/vendor-utils-IQnLfnpL.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "6373207768928525427",
+  "url": "https://cdn.jsdelivr.net/npm/terser@5.39.0/dist/bundle.min.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-5838787168108720589",
+  "url": "https://app.notificacoesinteligentes.com/assets/vendor-Dq3wfolm.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-5701806100768862637",
+  "url": "https://mantago.cc/assets/vendor.Bx3_aYXP.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "8809338113933737768",
+  "url": "https://studio.swebsy.com/assets/vendor-utils-IQnLfnpL.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-5335743041680831461",
+  "url": "https://elci.dev/assets/minify-6MCWDlhL.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-5554910591848602165",
+  "url": "https://static4-eva.kore.ai/web/js/35.3942fd71a38cfeae0a98.chunks.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-180481971972259552",
+  "url": "https://www.hashcut.com/70e81196e76666c12159555b53401137c1708606.js?meteor_js_resource=true",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-2772465803808439948",
+  "url": "https://ga.jspm.io/npm:terser@5.22.0/dist/bundle.min.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-3616115162503540774",
+  "url": "https://static.trvcdn.net/prd/assets/aurum/_aurum/assets/B5nsBW5q.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "2051010523216411560",
+  "url": "https://static.flacon-magazine.com/graph.js?h=3a235230",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "8357378344597821198",
+  "url": "https://forms.app/_nuxt/CLOtuGOU.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "278396901372530849",
+  "url": "https://www.hashcut.com/70e81196e76666c12159555b53401137c1708606.js?meteor_js_resource=true",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-5635217213514232864",
+  "url": "https://workbench.ondc.tech/assets/index-gwGxB9AJ.js",
+  "class": "changed-no-match"
+ },
+ {
+  "body_hash": "-2124706858379898367",
+  "url": "https://cro.gov.cz/static/js/main.3eca36e9.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "body_hash": "710275130104697090",
+  "url": "https://dolbear.com.bd/frontend/js/chunks/vendor-webpack-c6c317ef.ba2c68e6.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "124541259316565158",
+  "url": "https://cdn.jsdelivr.net/npm/terser@5.30.0/dist/bundle.min.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-12154949941294061",
+  "url": "https://www.rentacenter.com/mobify/bundle/4392/static/sfchat/sf_data_send.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "body_hash": "-6720328200832382395",
+  "url": "https://string.is/_next/static/chunks/d8ed17ce-f7555e8987aad02c.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "5948077790663435411",
+  "url": "https://linkbook.io/js/chunk-vendors~a6109fde.5c7a8852.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-700108849462177999",
+  "url": "https://codercrafter.in/_next/static/immutable/chunks/1w77344w5i90_.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-3716231355799728599",
+  "url": "https://workbench.ondc.tech/assets/index-_x4CRP6U.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "2018952009767611630",
+  "url": "https://app.webacus.dev/_nuxt/db5c1d8.worker.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "6290648565067713629",
+  "url": "https://client-plannexo.bionexo.com/js/app.064c1f38.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "body_hash": "4804289767283351387",
+  "url": "https://dashboard.anura.io/main.c832a250d1d4b146.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "8045883774523618708",
+  "url": "https://app-sg.adspower.com/static/js/_vendor.DxELzvQf.js",
+  "class": "changed-no-match"
+ },
+ {
+  "body_hash": "262618346704658471",
+  "url": "https://browsertotal.com/assets/Bba7UuxH.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-5300305722359870037",
+  "url": "https://www.hashcut.com/70e81196e76666c12159555b53401137c1708606.js?meteor_js_resource=true",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "713914688417708218",
+  "url": "https://php-minify.com/js/terser.min.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "7581111157789741565",
+  "url": "https://www.eletrotrafo.com.br/_frsh/js/a59e20880b6eb76c8322e2a250e95e3aa7f767d3/chunk-EOKOPCPO.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-846448440565985503",
+  "url": "https://www.playadopt.me/_next/static/chunks/2r8x4_bf25rzs.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "body_hash": "6450584947932245178",
+  "url": "https://app.atomicat.com.br/_next/static/chunks/5b00199a-f382086fea9f3874.js?dpl=dpl_CqEiC7i6AtBU25yGV1jMP7hXCZtY",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-1036122963592186557",
+  "url": "https://monolithprod.siigo.com/ISIIGO2/Framework/General/GeneralScript.min.js?v=06.73.0320&vonline=00001",
+  "class": "code",
+  "terser_markers": false,
+  "code_contexts": [
+   "toreNameLastUpdate], \"readonly\").objectStore(storeNameLastUpdate).get(e); a.onerror = logerr, a.onsuccess = function () { t(a.result ? a.result : -1) } })) } function getAllStoreIndexedDb(e) { connectDB((function (t) { var o = [], a = t.transaction([storeName], \"readonly\").objectStore(storeName); a.mozGetAll ? a.mozGetAll().onsuccess = function (t) { e(t.target.result) } : a.openCursor().onsuccess = function (t) { var a = t.target.result; a ? (o.push(a.value), a.continue()) : e(o) } })) } function addStoreIndexedDb(e, t = null, o = !1) { let a = storeName; t && (a = t), connectDB((function (t)",
+   "date], \"readonly\").objectStore(storeNameLastUpdate).get(e); a.onerror = logerr, a.onsuccess = function () { t(a.result ? a.result : -1) } })) } function getAllStoreIndexedDb(e) { connectDB((function (t) { var o = [], a = t.transaction([storeName], \"readonly\").objectStore(storeName); a.mozGetAll ? a.mozGetAll().onsuccess = function (t) { e(t.target.result) } : a.openCursor().onsuccess = function (t) { var a = t.target.result; a ? (o.push(a.value), a.continue()) : e(o) } })) } function addStoreIndexedDb(e, t = null, o = !1) { let a = storeName; t && (a = t), connectDB((function (t) { var o = t.t"
+  ]
+ },
+ {
+  "body_hash": "7577995180993093345",
+  "url": "https://publisher.adoperator.com/js/chunk-vendors.4f8b2ec8.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "5408300354878975658",
+  "url": "https://vchysia.media/js/client.bundle.js?v1.2.5-1775642481",
+  "class": "domprops-list+terser+code",
+  "terser_markers": true,
+  "code_contexts": [
+   "learDataAt\",\"mozContact\",\"mozContacts\",\"mozCreateFileHandle\",\"mozCurrentTransform\",\"mozCurrentTransformInverse\",\"mozCursor\",\"mozDash\",\"mozDashOffset\",\"mozDecodedFrames\",\"mozExitPointerLock\",\"mozFillRule\",\"mozFragmentEnd\",\"mozFrameDelay\",\"mozFullScreen\",\"mozFullScreenElement\",\"mozFullScreenEnabled\",\"mozGetAll\",\"mozGetAllKeys\",\"mozGetAsFile\",\"mozGetDataAt\",\"mozGetMetadata\",\"mozGetUserMedia\",\"mozHasAudio\",\"mozHasItem\",\"mozHidden\",\"mozImageSmoothingEnabled\",\"mozIndexedDB\",\"mozInnerScreenX\",\"mozInnerScreenY\",\"mozInputSource\",\"mozIsTextField\",\"mozItem\",\"mozItemCount\",\"mozItems\",\"mozLength\",\"mozLockO",
+   "\"mozContact\",\"mozContacts\",\"mozCreateFileHandle\",\"mozCurrentTransform\",\"mozCurrentTransformInverse\",\"mozCursor\",\"mozDash\",\"mozDashOffset\",\"mozDecodedFrames\",\"mozExitPointerLock\",\"mozFillRule\",\"mozFragmentEnd\",\"mozFrameDelay\",\"mozFullScreen\",\"mozFullScreenElement\",\"mozFullScreenEnabled\",\"mozGetAll\",\"mozGetAllKeys\",\"mozGetAsFile\",\"mozGetDataAt\",\"mozGetMetadata\",\"mozGetUserMedia\",\"mozHasAudio\",\"mozHasItem\",\"mozHidden\",\"mozImageSmoothingEnabled\",\"mozIndexedDB\",\"mozInnerScreenX\",\"mozInnerScreenY\",\"mozInputSource\",\"mozIsTextField\",\"mozItem\",\"mozItemCount\",\"mozItems\",\"mozLength\",\"mozLockOrientation\","
+  ]
+ },
+ {
+  "body_hash": "3311248473312344625",
+  "url": "https://merci.citykomi.com/static/js/main.40d00c0c.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "body_hash": "-4926626506666658011",
+  "url": "http://lol.zengm.com/gen/app.js",
+  "class": "code",
+  "terser_markers": false,
+  "code_contexts": [
+   "indow.webkitIDBIndex || window.mozIDBIndex || window.msIDBIndex;\n\n    if (typeof IDBObjectStore === \"undefined\" || typeof IDBIndex === \"undefined\" || (IDBObjectStore.prototype.getAll !== undefined && IDBIndex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pa",
+   "window.msIDBIndex;\n\n    if (typeof IDBObjectStore === \"undefined\" || typeof IDBIndex === \"undefined\" || (IDBObjectStore.prototype.getAll !== undefined && IDBIndex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/IDBRequest.js\n    IDBRequest = functio",
+   "fined\" || (IDBObjectStore.prototype.getAll !== undefined && IDBIndex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/IDBRequest.js\n    IDBRequest = function () {\n        this.onsuccess = null;\n        this.readyState = \"pending\";\n    };\n    // https",
+   "ex.prototype.getAll !== undefined)) {\n        return;\n    }\n\n    if (IDBObjectStore.prototype.mozGetAll !== undefined && IDBIndex.prototype.mozGetAll !== undefined) {\n        IDBObjectStore.prototype.getAll = IDBObjectStore.prototype.mozGetAll;\n        IDBIndex.prototype.getAll = IDBIndex.prototype.mozGetAll;\n        return;\n    }\n\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/IDBRequest.js\n    IDBRequest = function () {\n        this.onsuccess = null;\n        this.readyState = \"pending\";\n    };\n    // https://github.com/axemclion/IndexedDBShim/blob/gh-pages/src/Event.js\n "
+  ]
+ },
+ {
+  "body_hash": "-5796188805862659243",
+  "url": "https://divbltch0alc1.cloudfront.net/js/Theme2/productdetails/cart_management_idb.js",
+  "class": "code",
+  "terser_markers": false,
+  "code_contexts": [
+   "  transaction.onsuccess = function(){\n      f(transaction.result ? transaction.result : -1);\n    }\n  });\n}\n\nfunction getAll(f,otherDetails){\n  connectDB(function(db){\n    var rows = [],\n      store = db.transaction([storeName], \"readonly\").objectStore(storeName);\n      /*console.log('store: '+store.mozGetAll);*/\n    if(store.mozGetAll)\n      store.mozGetAll().onsuccess = function(e){\n        f(e.target.result,otherDetails);\n      };\n    else\n      store.openCursor().onsuccess = function(e) {\n        var cursor = e.target.result;\n        /*console.log('e.target.result: '+e.target.result);*/\n   ",
+   "unction(){\n      f(transaction.result ? transaction.result : -1);\n    }\n  });\n}\n\nfunction getAll(f,otherDetails){\n  connectDB(function(db){\n    var rows = [],\n      store = db.transaction([storeName], \"readonly\").objectStore(storeName);\n      /*console.log('store: '+store.mozGetAll);*/\n    if(store.mozGetAll)\n      store.mozGetAll().onsuccess = function(e){\n        f(e.target.result,otherDetails);\n      };\n    else\n      store.openCursor().onsuccess = function(e) {\n        var cursor = e.target.result;\n        /*console.log('e.target.result: '+e.target.result);*/\n        if(cursor){\n          ",
+   "saction.result ? transaction.result : -1);\n    }\n  });\n}\n\nfunction getAll(f,otherDetails){\n  connectDB(function(db){\n    var rows = [],\n      store = db.transaction([storeName], \"readonly\").objectStore(storeName);\n      /*console.log('store: '+store.mozGetAll);*/\n    if(store.mozGetAll)\n      store.mozGetAll().onsuccess = function(e){\n        f(e.target.result,otherDetails);\n      };\n    else\n      store.openCursor().onsuccess = function(e) {\n        var cursor = e.target.result;\n        /*console.log('e.target.result: '+e.target.result);*/\n        if(cursor){\n          rows.push(cursor.value)"
+  ]
+ },
+ {
+  "body_hash": "5444973506377090421",
+  "url": "https://indonesiaindicator.com/_next/static/chunks/d20bd9e0-c0e2f813cc7ee488.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-2169129264427957904",
+  "url": "https://app.edcafe.ai/_next/static/chunks/52540b7f-fcf52f789d82c316.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "8896934966972674867",
+  "url": "https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-7079513252569594664",
+  "url": "https://lwhusvagnar.se/nya-husbilar-i-lager",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "874570836273525672",
+  "url": "https://browsertotal.com/assets/tnCIW1T4.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "3796593521644676725",
+  "url": "https://w3dge.io/lib-77197b3e.c8c4c48e139787ea12a8.js",
+  "class": "domprops-list",
+  "terser_markers": false,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "7405578964132484183",
+  "url": "https://content.webuntis.com/WebUntis/static/2027.3.1/js/untis/webpack.js",
+  "class": "fetch-failed",
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "body_hash": "-8529107887460976051",
+  "url": "https://ripshusvagnar.se/nya-husbilar-i-lager",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ },
+ {
+  "body_hash": "-2240482153293587865",
+  "url": "https://dljz.mof.gov.cn/static/js/vendors~app~218a55ad.f6a48c71.js",
+  "class": "domprops-list+terser",
+  "terser_markers": true,
+  "code_contexts": []
+ }
+]
