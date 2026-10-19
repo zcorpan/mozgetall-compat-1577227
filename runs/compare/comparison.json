@@ -1,0 +1,173 @@
+[
+ {
+  "page": "https://www.rentacenter.com/",
+  "called_in_A": true,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://www.rentacenter.com/en-us/p/furniture/living-rooms/sofas-and-sectionals/benchcraft-olten-2-piece-sectional-with-chaise-graphite-31305s2/200052867.html?WT.ac=mprm_OCT_OLTENSECTIONAL_HP",
+  "called_in_A": true,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 34916,
+  "pixels_A_B": 793952
+ },
+ {
+  "page": "https://af.fineco.it/default.aspx",
+  "called_in_A": true,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://af.fineco.it/",
+  "called_in_A": true,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://client-plannexo.bionexo.com/",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 14544,
+  "pixels_A_B": 9072
+ },
+ {
+  "page": "https://chat.lenzaos.com/",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://med.famed.online/",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://med.famed.online/auth/sms",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://webclient.promtransinvest.by:4001/",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://webclient.promtransinvest.by:4003/",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "http://collegefootball.zengm.com/",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "http://collegefootball.zengm.com/new_league",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "http://football.zengm.com/",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "http://football.zengm.com/new_league",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "http://lol.zengm.com/",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "http://lol.zengm.com/new_league",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://mevofit.com/",
+  "called_in_A": true,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://mevofit.com/smart-wearables",
+  "called_in_A": true,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ },
+ {
+  "page": "https://monolithprod.siigo.com/",
+  "called_in_A": false,
+  "called_in_B": false,
+  "new_errors_in_B": [],
+  "mozgetall_errors_in_B": [],
+  "pixels_A_A2": 0,
+  "pixels_A_B": 0
+ }
+]
