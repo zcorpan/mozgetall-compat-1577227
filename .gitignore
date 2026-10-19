@@ -1,3 +1,6 @@
 .venv/
 screenshots/
 __pycache__/
+runs/*/logs/
+runs/*/progress.log
+runs/*/screenshots/
