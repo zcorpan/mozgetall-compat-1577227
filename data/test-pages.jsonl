@@ -1,0 +1,4 @@
+{"page": "http://localhost:8765/call.html", "rank": 0, "kind": "test"}
+{"page": "http://localhost:8765/worker.html", "rank": 0, "kind": "test"}
+{"page": "http://localhost:8765/lookup.html", "rank": 0, "kind": "test"}
+{"page": "http://localhost:8765/none.html", "rank": 0, "kind": "test"}
