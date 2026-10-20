@@ -45,6 +45,10 @@ mentioning `mozGetAll`, same text length, element count and scroll size. The one
 difference (rentacenter product page, a missing "Saved" link in B) didn't reproduce in 3 more runs
 per mode (`runs/rentacenter/`, `review/`).
 
+Browser run output (`runs/`) was scrubbed for publishing with `scripts/scrub_runs.py`: CSP reports
+dropped, URL query strings and long payloads stripped, and final URLs, titles and the document URLs
+in use counter lines removed.
+
 ## Limits
 
 - Desktop crawl only, page load only: code behind login or interaction (famed, promtransinvest,
