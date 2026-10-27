@@ -1,0 +1,55 @@
+diff --git a/dom/webidl/IDBIndex.webidl b/dom/webidl/IDBIndex.webidl
+index 71e42133451a..6d43f41a0847 100644
+--- a/dom/webidl/IDBIndex.webidl
++++ b/dom/webidl/IDBIndex.webidl
+@@ -50,14 +50,16 @@ interface IDBIndex {
+     IDBRequest getAll(optional any queryOrOptions,
+                       optional [EnforceRange] unsigned long count);
+     // Deprecated alias for getAll(), kept for compat. See bug 1577227.
+-    [NewObject, Throws, BinaryName="GetAll", Deprecated="IDBIndexMozGetAll"]
++    [NewObject, Throws, BinaryName="GetAll", Deprecated="IDBIndexMozGetAll",
++     Pref="dom.indexedDB.mozGetAll.enabled"]
+     IDBRequest mozGetAll(optional any queryOrOptions,
+                          optional [EnforceRange] unsigned long count);
+     [NewObject, Throws]
+     IDBRequest getAllKeys(optional any queryOrOptions,
+                             optional [EnforceRange] unsigned long count);
+     // Deprecated alias for getAllKeys(), kept for compat. See bug 1577227.
+-    [NewObject, Throws, BinaryName="GetAllKeys", Deprecated="IDBIndexMozGetAllKeys"]
++    [NewObject, Throws, BinaryName="GetAllKeys", Deprecated="IDBIndexMozGetAllKeys",
++     Pref="dom.indexedDB.mozGetAll.enabled"]
+     IDBRequest mozGetAllKeys(optional any queryOrOptions,
+                              optional [EnforceRange] unsigned long count);
+     [NewObject, Throws]
+diff --git a/dom/webidl/IDBObjectStore.webidl b/dom/webidl/IDBObjectStore.webidl
+index 8dc24399169a..dbee915c4319 100644
+--- a/dom/webidl/IDBObjectStore.webidl
++++ b/dom/webidl/IDBObjectStore.webidl
+@@ -41,7 +41,8 @@ interface IDBObjectStore {
+     IDBRequest getAll(optional any queryOrOptions,
+                       optional [EnforceRange] unsigned long count);
+     // Deprecated alias for getAll(), kept for compat. See bug 1577227.
+-    [NewObject, Throws, BinaryName="GetAll", Deprecated="IDBObjectStoreMozGetAll"]
++    [NewObject, Throws, BinaryName="GetAll", Deprecated="IDBObjectStoreMozGetAll",
++     Pref="dom.indexedDB.mozGetAll.enabled"]
+     IDBRequest mozGetAll(optional any queryOrOptions,
+                          optional [EnforceRange] unsigned long count);
+     [NewObject, Throws]
+diff --git a/modules/libpref/init/StaticPrefList.yaml b/modules/libpref/init/StaticPrefList.yaml
+index 86e995a3b861..6e65ff8f5ef7 100644
+--- a/modules/libpref/init/StaticPrefList.yaml
++++ b/modules/libpref/init/StaticPrefList.yaml
+@@ -3525,6 +3525,13 @@
+   value: false
+   mirror: always
+ 
++# Whether the deprecated IDBObjectStore.mozGetAll, IDBIndex.mozGetAll and
++# IDBIndex.mozGetAllKeys aliases are exposed.
++- name: dom.indexedDB.mozGetAll.enabled
++  type: RelaxedAtomicBool
++  value: true
++  mirror: always
++
+ # Whether or not indexedDB experimental features are enabled.
+ - name: dom.indexedDB.experimental
+   type: RelaxedAtomicBool

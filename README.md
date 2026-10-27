@@ -23,7 +23,8 @@ pages, script and HTML responses whose body contains `mozGetAll` (78.7 TB proces
 ## Browser testing
 
 Firefox built from mozilla-firefox/firefox 751f5671de2d plus a `dom.indexedDB.mozGetAll.enabled`
-pref (`Pref=` on the three members in `IDBObjectStore.webidl` and `IDBIndex.webidl`), so "off"
+pref (`Pref=` on the three members in `IDBObjectStore.webidl` and `IDBIndex.webidl`; `gecko.patch`
+on top of the commit in `gecko-base.txt`), so "off"
 removes them in windows and workers. `runs/smoke/` checks the pref and the detection on local test
 pages, including a dedicated worker.
 
