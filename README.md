@@ -57,3 +57,7 @@ in use counter lines removed.
 - The crawl misses logged-in and intranet pages, which Firefox telemetry includes.
 - Shared and service workers have no ancestor document, so their calls wouldn't show in the
   document counter.
+
+## Reproduce
+
+This run was done with the [`httparchive` skill](https://github.com/zcorpan/web-platform-skills/blob/main/docs/httparchive.md). The steps above are standalone and rerun the same analysis without the skill.
